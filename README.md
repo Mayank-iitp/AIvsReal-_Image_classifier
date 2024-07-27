@@ -43,23 +43,23 @@ model = Sequential([
 
 ```
 ## Model Performance
--Training Accuracy: 97.35%
--Test Accuracy: 96.14%
--Training Precision: 0.9738
--Training Recall: 0.9732
--Test Precision: 0.9807
--Test Recall: 0.9414
+- Training Accuracy: 97.35%
+- Test Accuracy: 96.14%
+- Training Precision: 0.9738
+- Training Recall: 0.9732
+- Test Precision: 0.9807
+- Test Recall: 0.9414
 ## Dependencies
 
--TensorFlow
--Keras
--numpy
--pandas
--scikit-learn
--matplotlib
--seaborn
--kaggle
--PIL
+- TensorFlow
+- Keras
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- kaggle
+- PIL
 
 ## Contribution
 Contributions are welcome! Just fork and push
