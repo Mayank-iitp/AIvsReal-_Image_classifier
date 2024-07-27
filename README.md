@@ -28,6 +28,7 @@ AIvsReal is designed to classify images as either AI-generated or real. The proj
 
 The model architecture includes:
 
+```
 
 model = Sequential([
     ResNet50V2,
@@ -38,8 +39,10 @@ model = Sequential([
     BatchNormalization(),
     Dropout(0.5),
     Dense(1, activation='sigmoid')
-]) 
-##Model Performance
+])
+
+```
+## Model Performance
 Training Accuracy: 97.35%
 Test Accuracy: 96.14%
 Training Precision: 0.9738
@@ -56,12 +59,12 @@ scikit-learn
 matplotlib
 seaborn
 kaggle
-##Contribution
+## Contribution
 Contributions are welcome! Just fork and push
 
 
 
 
-##Conclusion
+## Conclusion
 AIvsReal demonstrates the power of transfer learning combined with custom layers in building an effective image classification model. With a high accuracy and robust performance metrics, this project provides a solid foundation for distinguishing between AI-generated and real images. Future improvements could include exploring other architectures, fine-tuning hyperparameters, and expanding the dataset for even better results.
 
