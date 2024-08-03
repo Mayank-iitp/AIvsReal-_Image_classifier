@@ -13,7 +13,8 @@ AIvsReal is an image classification project that uses the CIFAKE dataset to dist
 
 ## Project Description
 
-AIvsReal is designed to classify images as either AI-generated or real. The project utilizes the CIFAKE dataset, which can be accessed using the Kaggle API. The model leverages the ResNet50v2 architecture, incorporating custom layers to improve accuracy and performance.
+AIvsReal is designed to classify images as either AI-generated or real. The project utilizes the CIFAKE dataset, which can be accessed using the Kaggle API.CIFAKE is a dataset that contains 60,000 synthetically-generated images and 60,000 real images (collected from CIFAR-10).The REAL images are collected from the images from Krizhevsky & Hinton's CIFAR-10 dataset.Fake images are generated from equivalent of CIFAR-10 with Stable Diffusion version 1.4.
+The model leverages the ResNet50v2 architecture, incorporating custom layers to improve accuracy and performance.
 
 ## Features
 
